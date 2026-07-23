@@ -1,0 +1,74 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "setuptools_scm[toml]>=8.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "release-branch-semver"
+local_scheme = "no-local-version"
+write_to = "src/gwresults/_version.py"
+
+[project]
+name = "gwresults"
+dynamic = ["version"]
+description = "Simple, beautiful access to gravitational-wave parameter estimation and search results."
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Daniel Williams" },
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Natural Language :: English",
+]
+dependencies = [
+    "click",
+    "pyyaml",
+    "h5py",
+    "pandas",
+    "astropy",
+    "pooch",
+]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx",
+    "numpydoc",
+    "sphinx-click",
+    "furo",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
+[project.scripts]
+gwresults = "gwresults.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gwresults = ["data/registry/*.yaml", "data/*.csv"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=gwresults --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["gwresults"]
+omit = ["src/gwresults/_version.py"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+extend-select = ["B", "C", "E", "F", "I", "UP"]
