@@ -45,13 +45,29 @@ results = gwresults.posterior.query(
 )
 ```
 
+## Adding events (maintainers)
+
+No catalogue data is bundled yet. Events are added by generating a
+registry file from its Zenodo record, not by hand-writing one:
+
+```console
+$ gwresults registry generate --zenodo-record 6513631 --catalogue GWTC-2.1
+Wrote 54 entries to .../data/registry/gwtc-2.1.yaml (54 total).
+```
+
+This queries the Zenodo API for the record's real file list and
+checksums and derives each event's `gps_time` from its name, so nothing
+is hand-typed. See
+[`src/gwresults/data/registry/README.md`](src/gwresults/data/registry/README.md)
+(or the "Maintaining the registry" tutorial in the docs) for the full
+workflow, including disambiguating records that bundle multiple files
+per event.
+
 ## Status
 
 Early scaffold. Currently supports published parameter-estimation
 posteriors only; search-pipeline results are planned but not yet
-implemented (`gwresults.search`). No catalogue data is bundled yet —
-see [`src/gwresults/data/registry/README.md`](src/gwresults/data/registry/README.md)
-for how to add events.
+implemented (`gwresults.search`).
 
 ## Development
 

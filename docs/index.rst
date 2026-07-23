@@ -16,6 +16,7 @@ catalogues.
    :caption: Tutorials
 
    tutorials/quickstart
+   tutorials/maintaining_registry
 
 .. toctree::
    :maxdepth: 2
