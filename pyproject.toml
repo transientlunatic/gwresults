@@ -37,6 +37,7 @@ dependencies = [
     "pandas",
     "astropy",
     "pooch",
+    "requests",
 ]
 
 [project.optional-dependencies]

@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+import yaml
 from click.testing import CliRunner
 
-from gwresults import cli, posterior
+from gwresults import cli, posterior, registry_build
 from gwresults.registry import RegistryError
 
 
@@ -76,3 +77,76 @@ def test_get_posterior_reports_bad_waveform_cleanly(monkeypatch):
     assert result.exit_code != 0
     assert "not available" in result.output
     assert "Traceback" not in result.output
+
+
+def test_registry_generate_writes_to_explicit_output(monkeypatch, tmp_path):
+    monkeypatch.setattr(
+        registry_build,
+        "generate_entries",
+        lambda record_id, catalogue, pattern: {"GW150914_095045": {"catalogue": catalogue}},
+    )
+    output_path = tmp_path / "gwtc-1.yaml"
+    runner = CliRunner()
+    result = runner.invoke(
+        cli.cli,
+        [
+            "registry",
+            "generate",
+            "--zenodo-record",
+            "1234567",
+            "--catalogue",
+            "GWTC-1",
+            "--output",
+            str(output_path),
+        ],
+    )
+    assert result.exit_code == 0
+    assert "Wrote 1 entries" in result.output
+    assert yaml.safe_load(output_path.read_text()) == {
+        "GW150914_095045": {"catalogue": "GWTC-1"}
+    }
+
+
+def test_registry_generate_no_matches_reports_error(monkeypatch, tmp_path):
+    monkeypatch.setattr(
+        registry_build, "generate_entries", lambda record_id, catalogue, pattern: {}
+    )
+    runner = CliRunner()
+    result = runner.invoke(
+        cli.cli,
+        [
+            "registry",
+            "generate",
+            "--zenodo-record",
+            "1234567",
+            "--catalogue",
+            "GWTC-1",
+            "--output",
+            str(tmp_path / "gwtc-1.yaml"),
+        ],
+    )
+    assert result.exit_code != 0
+    assert "No files" in result.output
+
+
+def test_registry_generate_defaults_output_to_registry_dir(monkeypatch, tmp_path):
+    monkeypatch.setattr(
+        registry_build,
+        "generate_entries",
+        lambda record_id, catalogue, pattern: {"GW150914_095045": {"catalogue": catalogue}},
+    )
+    monkeypatch.setattr(cli, "_default_registry_dir", lambda: tmp_path)
+    runner = CliRunner()
+    result = runner.invoke(
+        cli.cli,
+        [
+            "registry",
+            "generate",
+            "--zenodo-record",
+            "1234567",
+            "--catalogue",
+            "GWTC-1",
+        ],
+    )
+    assert result.exit_code == 0
+    assert (tmp_path / "gwtc-1.yaml").exists()

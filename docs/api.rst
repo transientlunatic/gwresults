@@ -8,6 +8,7 @@ API reference
    gwresults.posterior
    gwresults.search
    gwresults.registry
+   gwresults.registry_build
    gwresults.cache
    gwresults.io
    gwresults.stats
