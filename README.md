@@ -1,6 +1,6 @@
 # gwresults
 
-gwresults is a simple, beautiful way to access parameter-estimation and
+gwresults is a simple way to access parameter-estimation and
 search results from LVK catalogue publications and third-party community
 catalogues.
 
