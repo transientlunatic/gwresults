@@ -1,0 +1,624 @@
+GW240413_022019:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240413_022019-combined_PEDataRelease.hdf5
+  gps_time: 1397010037.0
+  hash: md5:132c7716bff1cbe52de1f6618981aa33
+  zenodo_record: 20348005
+GW240414_054515:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240414_054515-combined_PEDataRelease.hdf5
+  gps_time: 1397108733.0
+  hash: md5:8e1ff0d50c3cbcd39a5921be0e863815
+  zenodo_record: 20348005
+GW240420_175625:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240420_175625-combined_PEDataRelease.hdf5
+  gps_time: 1397671003.0
+  hash: md5:7be786533108704196e1ee7026dc2609
+  zenodo_record: 20348005
+GW240426_031451:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240426_031451-combined_PEDataRelease.hdf5
+  gps_time: 1398136509.0
+  hash: md5:48b990dd71967e4a4fee450ad3abfa8c
+  zenodo_record: 20348005
+GW240428_225440:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240428_225440-combined_PEDataRelease.hdf5
+  gps_time: 1398380098.0
+  hash: md5:ec82483a9f5267537b6526890c3a94cc
+  zenodo_record: 20348005
+GW240501_033534:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240501_033534-combined_PEDataRelease.hdf5
+  gps_time: 1398569752.0
+  hash: md5:8942224fb3ec8e4b1030e59436559b5c
+  zenodo_record: 20348005
+GW240505_133552:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240505_133552-combined_PEDataRelease.hdf5
+  gps_time: 1398951370.0
+  hash: md5:0330d1aa57f9bde9dbea622da5b8e0ab
+  zenodo_record: 20348005
+GW240507_041632:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240507_041632-combined_PEDataRelease.hdf5
+  gps_time: 1399090610.0
+  hash: md5:767598f6fef4296589e86cccddba6a54
+  zenodo_record: 20348005
+GW240511_031507:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240511_031507-combined_PEDataRelease.hdf5
+  gps_time: 1399432525.0
+  hash: md5:f002aa1843c86d1986f5c5a907592995
+  zenodo_record: 20348005
+GW240512_024139:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240512_024139-combined_PEDataRelease.hdf5
+  gps_time: 1399516917.0
+  hash: md5:10b71e47f7a48b2126530cdc045b7c5d
+  zenodo_record: 20348005
+GW240513_183302:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240513_183302-combined_PEDataRelease.hdf5
+  gps_time: 1399660400.0
+  hash: md5:bd858d8ad72f1fee9d0880d456c747f6
+  zenodo_record: 20348005
+GW240514_121713:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240514_121713-combined_PEDataRelease.hdf5
+  gps_time: 1399724251.0
+  hash: md5:3fc14fafe9fb2d7a8a4f558cfc4c26bf
+  zenodo_record: 20348005
+GW240515_005301:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240515_005301-combined_PEDataRelease.hdf5
+  gps_time: 1399769599.0
+  hash: md5:61b15abe35ad71a0e2b1d30341401c68
+  zenodo_record: 20348005
+GW240519_012815:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240519_012815-combined_PEDataRelease.hdf5
+  gps_time: 1400117313.0
+  hash: md5:b5d0a3e7ac87fb7c95c44330c6299046
+  zenodo_record: 20348005
+GW240520_213616:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240520_213616-combined_PEDataRelease.hdf5
+  gps_time: 1400276194.0
+  hash: md5:7894c7e661b26964c00c080403065b72
+  zenodo_record: 20348005
+GW240525_031210:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240525_031210-combined_PEDataRelease.hdf5
+  gps_time: 1400641948.0
+  hash: md5:ae34ebd1e9b0b267f4600821346250dd
+  zenodo_record: 20348005
+GW240526_093944:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240526_093944-combined_PEDataRelease.hdf5
+  gps_time: 1400751602.0
+  hash: md5:a0fb115624aeabb9a3cc61153cb437fc
+  zenodo_record: 20348005
+GW240527_183429:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240527_183429-combined_PEDataRelease.hdf5
+  gps_time: 1400870087.0
+  hash: md5:717d298fa11f5e19301e61b154c4f41c
+  zenodo_record: 20348005
+GW240527_230910:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240527_230910-combined_PEDataRelease.hdf5
+  gps_time: 1400886568.0
+  hash: md5:15dce52c7ef4752a666550655d0e69d5
+  zenodo_record: 20348005
+GW240530_012417:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240530_012417-combined_PEDataRelease.hdf5
+  gps_time: 1401067475.0
+  hash: md5:96b2ce11033f0625c92290ab69c4cd87
+  zenodo_record: 20348005
+GW240531_040326:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240531_040326-combined_PEDataRelease.hdf5
+  gps_time: 1401163424.0
+  hash: md5:fc8f9f7212487b9fcdc4eeb3cd9d9704
+  zenodo_record: 20348005
+GW240531_075248:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240531_075248-combined_PEDataRelease.hdf5
+  gps_time: 1401177186.0
+  hash: md5:7344950a0816aaf2071333867f41cf6f
+  zenodo_record: 20348005
+GW240601_061200:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240601_061200-combined_PEDataRelease.hdf5
+  gps_time: 1401257538.0
+  hash: md5:013daa19a3c701ebfed9b99122b11f01
+  zenodo_record: 20348005
+GW240601_231004:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240601_231004-combined_PEDataRelease.hdf5
+  gps_time: 1401318622.0
+  hash: md5:38390e9bfc56b4de298412c5b42a48f6
+  zenodo_record: 20348005
+GW240612_081540:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240612_081540-combined_PEDataRelease.hdf5
+  gps_time: 1402215358.0
+  hash: md5:6a8d3da32b3ba1fc6f393df0c95802ac
+  zenodo_record: 20348005
+GW240615_113620:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240615_113620-combined_PEDataRelease.hdf5
+  gps_time: 1402486598.0
+  hash: md5:f1820fe91ccd615a0ef089b051504605
+  zenodo_record: 20348005
+GW240615_160735:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240615_160735-combined_PEDataRelease.hdf5
+  gps_time: 1402502873.0
+  hash: md5:6bb4af7fa38cf9ade2c6e4c5b2a8464c
+  zenodo_record: 20348005
+GW240618_071627:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240618_071627-combined_PEDataRelease.hdf5
+  gps_time: 1402730205.0
+  hash: md5:2ef71b169a6d2481942816360366c734
+  zenodo_record: 20348005
+GW240621_195059:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240621_195059-combined_PEDataRelease.hdf5
+  gps_time: 1403034677.0
+  hash: md5:13e95de0c98035876d68ee9cb65a87c5
+  zenodo_record: 20348005
+GW240621_200935:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240621_200935-combined_PEDataRelease.hdf5
+  gps_time: 1403035793.0
+  hash: md5:99e84a1b866f60ab0113cdde6cd7c569
+  zenodo_record: 20348005
+GW240621_214041:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240621_214041-combined_PEDataRelease.hdf5
+  gps_time: 1403041259.0
+  hash: md5:a1d76263f4994e9ebfd5d9b23ca97613
+  zenodo_record: 20348005
+GW240622_004008:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240622_004008-combined_PEDataRelease.hdf5
+  gps_time: 1403052026.0
+  hash: md5:b8e62f6d5986650ea57ceea1ec712278
+  zenodo_record: 20348005
+GW240627_131622:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240627_131622-combined_PEDataRelease.hdf5
+  gps_time: 1403529400.0
+  hash: md5:603e1f5c6b6198bdd9e6a18499f5e244
+  zenodo_record: 20348005
+GW240629_145256:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240629_145256-combined_PEDataRelease.hdf5
+  gps_time: 1403707994.0
+  hash: md5:463f60d570dafecbfe458afd414555f0
+  zenodo_record: 20348005
+GW240630_101703:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240630_101703-combined_PEDataRelease.hdf5
+  gps_time: 1403777841.0
+  hash: md5:f846c78f601d2bebfaa8b39a39bcaa4d
+  zenodo_record: 20348005
+GW240703_191355:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240703_191355-combined_PEDataRelease.hdf5
+  gps_time: 1404069253.0
+  hash: md5:b3c2c89e70d7be9975a775a86920d3f8
+  zenodo_record: 20348005
+GW240705_053215:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240705_053215-combined_PEDataRelease.hdf5
+  gps_time: 1404192753.0
+  hash: md5:52a1c7ad158863f0dcacc34713bdd795
+  zenodo_record: 20348005
+GW240716_034900:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240716_034900-combined_PEDataRelease.hdf5
+  gps_time: 1405136958.0
+  hash: md5:ba62bbb2da44a6abfd0219176d513495
+  zenodo_record: 20348005
+GW240824_205609:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240824_205609-combined_PEDataRelease.hdf5
+  gps_time: 1408568187.0
+  hash: md5:727d68345d9c9454325877def74eb218
+  zenodo_record: 20348005
+GW240825_055146:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240825_055146-combined_PEDataRelease.hdf5
+  gps_time: 1408600324.0
+  hash: md5:b160f4d400f852034ef8808e4981237e
+  zenodo_record: 20348005
+GW240830_211120:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240830_211120-combined_PEDataRelease.hdf5
+  gps_time: 1409087498.0
+  hash: md5:8a3f012c8b38602ed59a87eb210dabc9
+  zenodo_record: 20348005
+GW240902_143306:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240902_143306-combined_PEDataRelease.hdf5
+  gps_time: 1409322804.0
+  hash: md5:27988e20b1ce257152e43b67e07bf7c8
+  zenodo_record: 20348005
+GW240907_153833:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240907_153833-combined_PEDataRelease.hdf5
+  gps_time: 1409758731.0
+  hash: md5:385c9c3ffd00ed818cf45f497652212f
+  zenodo_record: 20348005
+GW240908_082628:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240908_082628-combined_PEDataRelease.hdf5
+  gps_time: 1409819206.0
+  hash: md5:52a73ccd2e04356d090d8aee5ab30228
+  zenodo_record: 20348005
+GW240908_125134:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240908_125134-combined_PEDataRelease.hdf5
+  gps_time: 1409835112.0
+  hash: md5:07a6fd39afdc261867c137d66297845e
+  zenodo_record: 20348005
+GW240910_103535:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240910_103535-combined_PEDataRelease.hdf5
+  gps_time: 1409999753.0
+  hash: md5:67fb8e9d52a1c0ba92ce30f9f175f439
+  zenodo_record: 20348005
+GW240915_001357:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240915_001357-combined_PEDataRelease.hdf5
+  gps_time: 1410394455.0
+  hash: md5:e54717cf845774bf74071c9367f2bfce
+  zenodo_record: 20348005
+GW240915_105151:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240915_105151-combined_PEDataRelease.hdf5
+  gps_time: 1410432729.0
+  hash: md5:27ecf83c35f33d892e85b8d9c97da7e7
+  zenodo_record: 20348005
+GW240916_184352:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240916_184352-combined_PEDataRelease.hdf5
+  gps_time: 1410547450.0
+  hash: md5:ccd08e36cbb805dfd79b7841b6de40a1
+  zenodo_record: 20348005
+GW240919_061559:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240919_061559-combined_PEDataRelease.hdf5
+  gps_time: 1410761777.0
+  hash: md5:41c936639c8a379c27691e4e903d3fd3
+  zenodo_record: 20348005
+GW240920_073424:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240920_073424-combined_PEDataRelease.hdf5
+  gps_time: 1410852882.0
+  hash: md5:f4c6cfdfa94ad37d3d2f4e63d0ec57df
+  zenodo_record: 20348005
+GW240920_124024:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240920_124024-combined_PEDataRelease.hdf5
+  gps_time: 1410871242.0
+  hash: md5:4322a166f918c89a4563eb657857327a
+  zenodo_record: 20348005
+GW240921_201835:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240921_201835-combined_PEDataRelease.hdf5
+  gps_time: 1410985133.0
+  hash: md5:6e7d4c067430f277a368ed05350811d8
+  zenodo_record: 20348005
+GW240922_142106:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240922_142106-combined_PEDataRelease.hdf5
+  gps_time: 1411050084.0
+  hash: md5:a50380256a3025eea7eed0b441ca6b3b
+  zenodo_record: 20348005
+GW240923_204006:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240923_204006-combined_PEDataRelease.hdf5
+  gps_time: 1411159224.0
+  hash: md5:a110f42fc7c33fe5125c83706561a299
+  zenodo_record: 20348005
+GW240924_000316:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240924_000316-combined_PEDataRelease.hdf5
+  gps_time: 1411171414.0
+  hash: md5:8fd87df7db991dd31fcac218eef03afe
+  zenodo_record: 20348005
+GW240925_005809:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240925_005809-combined_PEDataRelease.hdf5
+  gps_time: 1411261107.0
+  hash: md5:e77526610aaf28f3a45377fc69942e69
+  zenodo_record: 20348005
+GW240930_035959:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240930_035959-combined_PEDataRelease.hdf5
+  gps_time: 1411704017.0
+  hash: md5:b1a1e09705bec7f1ae7a1a4d5206adf0
+  zenodo_record: 20348005
+GW240930_234614:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW240930_234614-combined_PEDataRelease.hdf5
+  gps_time: 1411775192.0
+  hash: md5:8bddc99fe12de90407413bf7fa6be1f7
+  zenodo_record: 20348005
+GW241002_030559:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241002_030559-combined_PEDataRelease.hdf5
+  gps_time: 1411873577.0
+  hash: md5:2eb447584d46d8fbe408232586d88010
+  zenodo_record: 20348005
+GW241006_015333:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241006_015333-combined_PEDataRelease.hdf5
+  gps_time: 1412214831.0
+  hash: md5:f988daf7c29ef6d4cc5dad3910823c80
+  zenodo_record: 20348005
+GW241007_082943:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241007_082943-combined_PEDataRelease.hdf5
+  gps_time: 1412325001.0
+  hash: md5:26f71f947b7a5a27d0eb060b7a56f6f5
+  zenodo_record: 20348005
+GW241009_022835:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241009_022835-combined_PEDataRelease.hdf5
+  gps_time: 1412476133.0
+  hash: md5:1bb20b6a317ca108b000f1e0a00fc4c1
+  zenodo_record: 20348005
+GW241009_084816:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241009_084816-combined_PEDataRelease.hdf5
+  gps_time: 1412498914.0
+  hash: md5:be3aa7269ceef22371fa331d21efdb83
+  zenodo_record: 20348005
+GW241009_220455:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241009_220455-combined_PEDataRelease.hdf5
+  gps_time: 1412546713.0
+  hash: md5:09123fdecf85851ff86258a4ea7db8fa
+  zenodo_record: 20348005
+GW241011_233834:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241011_233834-combined_PEDataRelease.hdf5
+  gps_time: 1412725132.0
+  hash: md5:f432e03faba579a04697ae463391b180
+  zenodo_record: 20348005
+GW241101_220523:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241101_220523-combined_PEDataRelease.hdf5
+  gps_time: 1414533941.0
+  hash: md5:01e62d1344279846553b17dc49677a7b
+  zenodo_record: 20348005
+GW241102_124058:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241102_124058-combined_PEDataRelease.hdf5
+  gps_time: 1414586476.0
+  hash: md5:c9f3095e74e25c709364941056dabfb7
+  zenodo_record: 20348005
+GW241102_144729:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241102_144729-combined_PEDataRelease.hdf5
+  gps_time: 1414594067.0
+  hash: md5:03e21ed6f1978d61ac5e70701125e05d
+  zenodo_record: 20348005
+GW241109_033317:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241109_033317-combined_PEDataRelease.hdf5
+  gps_time: 1415158415.0
+  hash: md5:5d6a7ab116df6a2786e7c48ea9628a3f
+  zenodo_record: 20348005
+GW241109_115924:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241109_115924-combined_PEDataRelease.hdf5
+  gps_time: 1415188782.0
+  hash: md5:2c4f3a139ce828df62e7b3f2c13e3167
+  zenodo_record: 20348005
+GW241110_124123:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241110_124123-combined_PEDataRelease.hdf5
+  gps_time: 1415277701.0
+  hash: md5:324d29eb6e7ca1c1ae4d649b89c7e0e8
+  zenodo_record: 20348005
+GW241111_111552:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241111_111552-combined_PEDataRelease.hdf5
+  gps_time: 1415358970.0
+  hash: md5:0a12290d75258f476a99e5e060f950b4
+  zenodo_record: 20348005
+GW241113_163507:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241113_163507-combined_PEDataRelease.hdf5
+  gps_time: 1415550925.0
+  hash: md5:3c2ea3fa1079e129244f7bd3ead416cd
+  zenodo_record: 20348005
+GW241114_024711:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241114_024711-combined_PEDataRelease.hdf5
+  gps_time: 1415587649.0
+  hash: md5:1e90928b7ce53142bd3e1dc2d1583357
+  zenodo_record: 20348005
+GW241114_235258:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241114_235258-combined_PEDataRelease.hdf5
+  gps_time: 1415663596.0
+  hash: md5:5a731ffe731c42d3cf178127b7611213
+  zenodo_record: 20348005
+GW241116_151753:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241116_151753-combined_PEDataRelease.hdf5
+  gps_time: 1415805491.0
+  hash: md5:accd75b43fc6758f09c4188a48faac40
+  zenodo_record: 20348005
+GW241124_024914:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241124_024914-combined_PEDataRelease.hdf5
+  gps_time: 1416451772.0
+  hash: md5:3d4a44d4276583a6e56c788bb05951b9
+  zenodo_record: 20348005
+GW241125_010116:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241125_010116-combined_PEDataRelease.hdf5
+  gps_time: 1416531694.0
+  hash: md5:2b27d8a5562e149c54e737d1a549eee0
+  zenodo_record: 20348005
+GW241127_061008:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241127_061008-combined_PEDataRelease.hdf5
+  gps_time: 1416723026.0
+  hash: md5:ecacc96dd7cd47399dc3fbc2ba9c17d8
+  zenodo_record: 20348005
+GW241129_021832:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241129_021832-combined_PEDataRelease.hdf5
+  gps_time: 1416881930.0
+  hash: md5:53f49c925e8abe1890307cfca5400a97
+  zenodo_record: 20348005
+GW241130_034908:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241130_034908-combined_PEDataRelease.hdf5
+  gps_time: 1416973766.0
+  hash: md5:6d5305eb9bb25dce869c437cd6800a51
+  zenodo_record: 20348005
+GW241130_110422:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241130_110422-combined_PEDataRelease.hdf5
+  gps_time: 1416999880.0
+  hash: md5:05a4e96a5e1078949427822d163b0a2f
+  zenodo_record: 20348005
+GW241201_055758:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241201_055758-combined_PEDataRelease.hdf5
+  gps_time: 1417067896.0
+  hash: md5:21eccd07e07ad55f15a59bea92fc5d0c
+  zenodo_record: 20348006
+GW241210_060606:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241210_060606-combined_PEDataRelease.hdf5
+  gps_time: 1417845984.0
+  hash: md5:14ba29f53301486bece3a297cf062e94
+  zenodo_record: 20348006
+GW241210_120900:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241210_120900-combined_PEDataRelease.hdf5
+  gps_time: 1417867758.0
+  hash: md5:99a5392695550824561cacf89094c0d4
+  zenodo_record: 20348006
+GW241225_042553:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241225_042553-combined_PEDataRelease.hdf5
+  gps_time: 1419135971.0
+  hash: md5:96d3c5d49d3876babce40fdc3a06c565
+  zenodo_record: 20348006
+GW241225_082815:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241225_082815-combined_PEDataRelease.hdf5
+  gps_time: 1419150513.0
+  hash: md5:43a3a0f36e7212131039b7e806e7b189
+  zenodo_record: 20348006
+GW241229_155844:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241229_155844-combined_PEDataRelease.hdf5
+  gps_time: 1419523142.0
+  hash: md5:254d9593898315151d2dd99c5310e40f
+  zenodo_record: 20348006
+GW241230_084504:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241230_084504-combined_PEDataRelease.hdf5
+  gps_time: 1419583522.0
+  hash: md5:248f6aa86c41aabe58e4a1ec3289596d
+  zenodo_record: 20348006
+GW241230_233618:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241230_233618-combined_PEDataRelease.hdf5
+  gps_time: 1419636996.0
+  hash: md5:93ddf0bc482d9ab7f1fb857cc5969005
+  zenodo_record: 20348006
+GW241231_054133:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW241231_054133-combined_PEDataRelease.hdf5
+  gps_time: 1419658911.0
+  hash: md5:0378341e35688c394ee0f8f0b9749e0c
+  zenodo_record: 20348006
+GW250101_011205:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250101_011205-combined_PEDataRelease.hdf5
+  gps_time: 1419729143.0
+  hash: md5:8d130c93b813682cff19f083b660000d
+  zenodo_record: 20348006
+GW250104_015122:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250104_015122-combined_PEDataRelease.hdf5
+  gps_time: 1419990700.0
+  hash: md5:b112f279a582a0c7a3587ff9fc3e5afc
+  zenodo_record: 20348006
+GW250108_152221:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250108_152221-combined_PEDataRelease.hdf5
+  gps_time: 1420384959.0
+  hash: md5:42e2060a23d0694eb212f60f94c6cfa0
+  zenodo_record: 20348006
+GW250109_010541:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250109_010541-combined_PEDataRelease.hdf5
+  gps_time: 1420419959.0
+  hash: md5:e3c6d6644de5a8ab1770a7f2d4e1d11f
+  zenodo_record: 20348006
+GW250109_074552:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250109_074552-combined_PEDataRelease.hdf5
+  gps_time: 1420443970.0
+  hash: md5:1a07a34fd480bf6ccc3b852ab0857d8c
+  zenodo_record: 20348006
+GW250114_082203:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250114_082203-combined_PEDataRelease.hdf5
+  gps_time: 1420878141.0
+  hash: md5:c19521744221e3117e799739b672f9b0
+  zenodo_record: 20348006
+GW250116_015318:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250116_015318-combined_PEDataRelease.hdf5
+  gps_time: 1421027616.0
+  hash: md5:47f6e737709b4cf88548dd885ddf3026
+  zenodo_record: 20348006
+GW250118_023225:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250118_023225-combined_PEDataRelease.hdf5
+  gps_time: 1421202763.0
+  hash: md5:6f7247404942702c1db5e0af80a6f67c
+  zenodo_record: 20348006
+GW250118_055802:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250118_055802-combined_PEDataRelease.hdf5
+  gps_time: 1421215100.0
+  hash: md5:2e092ced095294d7910b65bdf7215b7a
+  zenodo_record: 20348006
+GW250118_170523:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250118_170523-combined_PEDataRelease.hdf5
+  gps_time: 1421255141.0
+  hash: md5:5d1f1146004e7b437ebba33ec3f5fbf2
+  zenodo_record: 20348006
+GW250119_025138:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250119_025138-combined_PEDataRelease.hdf5
+  gps_time: 1421290316.0
+  hash: md5:3ba41a66fd5bce528b7fc982f9374651
+  zenodo_record: 20348006
+GW250119_190238:
+  catalogue: GWTC-5.0
+  filename: IGWN-GWTC5p0-29ebe06b7_25-GW250119_190238-combined_PEDataRelease.hdf5
+  gps_time: 1421348576.0
+  hash: md5:33638594bcbb8ecf30588fa627804f1e
+  zenodo_record: 20348006
