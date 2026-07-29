@@ -46,6 +46,26 @@ def duplicate_registry_dir(tmp_path):
 
 
 @pytest.fixture
+def ambiguous_short_name_registry_dir(tmp_path):
+    """A registry directory with two events sharing the same UTC day."""
+    entries = {
+        "GW150914_095045": {
+            "catalogue": "GWTC-1",
+            "zenodo_record": 1234567,
+            "filename": "GW150914_095045.h5",
+        },
+        "GW150914_120000": {
+            "catalogue": "GWTC-1",
+            "zenodo_record": 1234567,
+            "filename": "GW150914_120000.h5",
+        },
+    }
+    registry_file = tmp_path / "gwtc-1.yaml"
+    registry_file.write_text(yaml.safe_dump(entries))
+    return tmp_path
+
+
+@pytest.fixture
 def sample_posterior_file(tmp_path):
     """A small HDF5 file mimicking a PE Data Release with two analyses."""
     path = tmp_path / "GW150914_095045.h5"

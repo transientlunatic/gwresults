@@ -22,7 +22,11 @@ def get_group():
 
 
 @get_group.command("posterior")
-@click.option("--event", required=True, help="Event name, e.g. GW150914_095045.")
+@click.option(
+    "--event",
+    required=True,
+    help="Event name, e.g. GW150914_095045, or the short form GW150914 if unambiguous.",
+)
 @click.option("--waveform", default=None, help="Waveform/analysis label to select.")
 def get_posterior(event: str, waveform: str | None):
     """Download (or locate the cached copy of) a posterior samples file."""

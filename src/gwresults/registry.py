@@ -9,6 +9,7 @@ in ``gwresults/data/registry`` and opening a pull request.
 
 from __future__ import annotations
 
+import re
 from importlib import resources
 from pathlib import Path
 
@@ -16,6 +17,7 @@ import yaml
 
 DATA_PACKAGE = "gwresults.data"
 REGISTRY_SUBDIR = "registry"
+_SHORT_NAME_RE = re.compile(r"GW\d{6}")
 
 
 class RegistryError(KeyError):
@@ -72,7 +74,10 @@ def lookup(event: str, directory: Path | None = None) -> dict:
     Parameters
     ----------
     event : str
-        Event name, e.g. ``"GW150914_095045"``.
+        Event name, either the full form (e.g. ``"GW150914_095045"``) or
+        the short, date-only form (e.g. ``"GW150914"``). The short form
+        resolves to the matching full name if exactly one registry entry
+        shares that date.
     directory : pathlib.Path, optional
         Directory containing registry YAML files. Defaults to the
         registry bundled with the package.
@@ -86,13 +91,24 @@ def lookup(event: str, directory: Path | None = None) -> dict:
     Raises
     ------
     RegistryError
-        If the event is not present in any registry file.
+        If the event is not present in any registry file, or if a short
+        name matches more than one entry.
     """
     entries = load_registry(directory)
-    try:
+    if event in entries:
         return entries[event]
-    except KeyError as exc:
-        raise RegistryError(f"No registry entry found for event '{event}'.") from exc
+
+    if _SHORT_NAME_RE.fullmatch(event):
+        matches = sorted(name for name in entries if name.startswith(f"{event}_"))
+        if len(matches) == 1:
+            return entries[matches[0]]
+        if len(matches) > 1:
+            raise RegistryError(
+                f"Event name '{event}' is ambiguous; matches {matches}. "
+                "Use the full name to disambiguate."
+            )
+
+    raise RegistryError(f"No registry entry found for event '{event}'.")
 
 
 def list_events(catalogue: str | None = None, directory: Path | None = None) -> list[str]:

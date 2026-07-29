@@ -26,6 +26,21 @@ def test_lookup_missing_event_raises(registry_dir):
         registry.lookup("GW999999_000000", registry_dir)
 
 
+def test_lookup_resolves_unambiguous_short_name(registry_dir):
+    entry = registry.lookup("GW150914", registry_dir)
+    assert entry["filename"] == "GW150914_095045.h5"
+
+
+def test_lookup_short_name_no_match_raises(registry_dir):
+    with pytest.raises(registry.RegistryError):
+        registry.lookup("GW999999", registry_dir)
+
+
+def test_lookup_short_name_ambiguous_raises(ambiguous_short_name_registry_dir):
+    with pytest.raises(registry.RegistryError, match="ambiguous"):
+        registry.lookup("GW150914", ambiguous_short_name_registry_dir)
+
+
 def test_list_events_all(registry_dir):
     assert registry.list_events(directory=registry_dir) == [
         "GW150914_095045",
@@ -48,7 +63,7 @@ def test_load_registry_skips_non_yaml_files(registry_dir):
 
 
 def test_load_registry_defaults_to_bundled_registry():
-    # No catalogue data is bundled yet, so this should be empty rather
-    # than error, and it exercises the real default-directory lookup.
+    # Exercises the real default-directory lookup against the actual
+    # bundled catalogue data, merged without a Duplicate-event ValueError.
     entries = registry.load_registry()
-    assert entries == {}
+    assert entries["GW150914_095045"]["catalogue"] == "GWTC-2.1"

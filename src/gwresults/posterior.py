@@ -15,7 +15,8 @@ def get(event: str, waveform: str | None = None) -> str:
     Parameters
     ----------
     event : str
-        Event name, e.g. ``"GW150914_095045"``.
+        Event name, either the full form (e.g. ``"GW150914_095045"``) or
+        the short, date-only form (e.g. ``"GW150914"``) if unambiguous.
     waveform : str, optional
         Name of the waveform/analysis group to select, e.g.
         ``"C01:IMRPhenomXPHM"``. If not given, the file is returned as-is
