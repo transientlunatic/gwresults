@@ -14,18 +14,38 @@ parameter) lets you query across events without downloading anything.
 ## Install
 
 ```console
-$ pip install -e ".[test,docs]"
+$ pip install gwresults
 ```
 
-## Usage
+## Quickstart
 
-Command line:
+### See what's bundled
+
+The event registry ships with the package, so you can query it offline:
+
+```console
+$ gwresults list catalogues
+GWTC-2.1
+GWTC-3.0
+GWTC-4.1
+GWTC-5.0
+
+$ gwresults list events --catalogue GWTC-2.1
+GW150914_095045
+GW151012_095443
+...
+```
+
+### Fetch a posterior samples file
 
 ```console
 $ gwresults get posterior --event GW150914_095045
+/home/user/.cache/gwresults/IGWN-GWTC2p1-v2-GW150914_095045_PEDataRelease_mixed_cosmo.h5
 ```
 
-Python:
+The short, date-only form (`GW150914`) also works if it's unambiguous.
+The file is downloaded once and cached; later calls return the same path
+without re-downloading. From Python:
 
 ```python
 import gwresults
@@ -33,7 +53,24 @@ import gwresults
 path = gwresults.posterior.get("GW150914_095045")
 ```
 
-Querying across events by summary statistics:
+### Read posterior samples
+
+A posterior file can hold more than one set of samples, one per waveform
+approximant used in the analysis:
+
+```python
+from gwresults import io
+
+analyses = io.list_analyses(path)
+with io.open_posterior_samples(path, analyses[0]) as samples:
+    total_mass = samples["total_mass"][:]
+```
+
+### Query across events by summary statistics
+
+`gwresults.posterior.query` searches a bundled table of summary
+statistics (median and highest-density interval per parameter) without
+downloading any posterior files:
 
 ```python
 import astropy.units as u
@@ -45,10 +82,20 @@ results = gwresults.posterior.query(
 )
 ```
 
-## Adding events (maintainers)
+> **Note:** the summary-statistics table ships empty until a maintainer
+> populates it with `gwresults stats build` (see below), so `query()`
+> currently returns no rows. The event registry above is unaffected —
+> `get posterior` works today.
 
-No catalogue data is bundled yet. Events are added by generating a
-registry file from its Zenodo record, not by hand-writing one:
+See the [quickstart tutorial](docs/tutorials/quickstart.rst) for more,
+or the CLI's built-in help (`gwresults --help`).
+
+## Maintainers
+
+### Adding a catalogue to the registry
+
+The event registry (mapping event name to Zenodo record and filename) is
+generated from a catalogue's Zenodo record, not hand-written:
 
 ```console
 $ gwresults registry generate --zenodo-record 6513631 --catalogue GWTC-2.1
@@ -63,11 +110,33 @@ is hand-typed. See
 workflow, including disambiguating records that bundle multiple files
 per event.
 
+### Building the summary-statistics table
+
+`gwresults.posterior.query` reads a bundled CSV built by
+`gwresults stats build`. It downloads each event's (multi-GB) posterior
+file in turn, extracts a handful of summary statistics from it, and
+discards the file again — so running it across a whole catalogue takes a
+long time and a lot of bandwidth:
+
+```console
+$ gwresults stats build --catalogue GWTC-2.1
+Wrote 108 rows to .../data/summary_stats.csv (108 total).
+```
+
+Use `--event` (repeatable) to (re)build specific events instead of a
+whole catalogue, and `--keep-cache` if you also want the downloaded
+posterior files left in the local cache rather than deleted after use.
+See the "Building the summary-statistics table" tutorial in the docs for
+more.
+
 ## Status
 
-Early scaffold. Currently supports published parameter-estimation
-posteriors only; search-pipeline results are planned but not yet
-implemented (`gwresults.search`).
+The event registry is bundled for GWTC-2.1, GWTC-3.0, GWTC-4.1 and
+GWTC-5.0 (`gwresults list catalogues` is the source of truth for what's
+currently included) — `gwresults get posterior` works for any event in
+them. The summary-statistics table is not yet populated (see above), and
+search-pipeline results are planned but not yet implemented
+(`gwresults.search`).
 
 ## Development
 
